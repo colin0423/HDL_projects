@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+        -sort_by group
+Design : AP
+Version: P-2019.03-SP1-1
+Date   : Wed Jun  4 22:46:20 2025
+****************************************
+
+Operating Conditions: ff0p88v125c   Library: N16ADFP_StdCellff0p88v125c
+Wire Load Model Mode: segmented
+
+  Startpoint: DPi[4] (input port clocked by clk)
+  Endpoint: DPo[4] (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  AP                 ZeroWireload          N16ADFP_StdCellss0p72vm40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.2000     0.2000
+  input external delay                   0.0000     0.2000 f
+  DPi[4] (in)                            0.0016     0.2016 f
+  U448/Z (CKBD1BWP16P90LVT)              0.0087     0.2103 f
+  U363/ZN (ND2D1BWP16P90LVT)             0.0048     0.2151 r
+  U364/ZN (ND2D1BWP16P90LVT)             0.0047     0.2198 f
+  DPo[4] (out)                           0.0000     0.2198 f
+  data arrival time                                 0.2198
+
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.2000     0.2000
+  clock uncertainty                      0.0200     0.2200
+  output external delay                  0.0000     0.2200
+  data required time                                0.2200
+  -----------------------------------------------------------
+  data required time                                0.2200
+  data arrival time                                -0.2198
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -0.0002
+
+
+1

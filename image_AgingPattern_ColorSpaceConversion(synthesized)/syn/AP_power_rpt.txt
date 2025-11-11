@@ -1,0 +1,185 @@
+Loading db file '/usr/cad/CBDK/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/N16ADFP_StdCellss0p72vm40c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : AP
+Version: P-2019.03-SP1-1
+Date   : Wed Jun  4 22:46:27 2025
+****************************************
+
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c (File: /usr/cad/CBDK/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/N16ADFP_StdCellss0p72vm40c.db)
+
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+AP                     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_inc_0          ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_inc_1          ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_dec_1          ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW_div_uns_4        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J2_6       ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J2_7       ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J2_8       ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J3_6       ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J3_8       ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_32         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_33         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_34         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_36         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_61         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_62         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_63         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J11_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J11_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_89         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_sub_J10_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J15_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J15_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J13_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J14_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J16_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J17_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J17_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J21_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J19_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_91         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J20_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J18_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J16_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J18_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_92         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J16_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J19_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J17_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J20_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J21_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J19_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J17_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J24_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J23_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J30_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J32_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J34_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J32_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J35_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J34_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J30_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J33_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J35_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J31_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J34_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J32_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J36_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J34_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_95         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J36_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J31_6      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_96         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J32_6      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J31_7      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_sub_J33_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J40_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J39_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J40_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J37_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J39_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J41_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J38_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J39_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J37_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J38_5      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J37_7      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J38_7      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J39_6      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J42_6      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J43_4      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J37_8      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J41_7      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J38_8      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J40_8      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J65_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J65_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J66_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_103        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J82_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J79_1      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J80_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J86_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_sub_J91_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J89_3      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J89_5      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J87_5      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_107        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J88_5      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J90_5      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J89_6      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J87_6      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J94_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J95_0      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J96_2      ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J100_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J101_1     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J100_1     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J102_1     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J104_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J100_2     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J104_1     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J101_3     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J102_3     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_110        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J100_3     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J102_4     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J101_6     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J103_5     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J101_7     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J103_6     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J102_7     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_113        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_J106_3     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_114        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_sub_4          ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_115        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_121        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+AP_DW01_add_122        ZeroWireload      N16ADFP_StdCellss0p72vm40c
+
+
+Global Operating Voltage = 0.72 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 260.3078 uW   (64%)
+  Net Switching Power  = 143.2705 uW   (36%)
+                         ---------
+Total Dynamic Power    = 403.5782 uW  (100%)
+
+Cell Leakage Power     =   1.3718 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       5.9842e-02        3.4362e-03           18.2419        6.3297e-02  (  15.63%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2005            0.1398        1.3536e+03            0.3417  (  84.37%)
+--------------------------------------------------------------------------------------------------
+Total              0.2603 mW         0.1433 mW     1.3718e+03 nW         0.4050 mW
+1

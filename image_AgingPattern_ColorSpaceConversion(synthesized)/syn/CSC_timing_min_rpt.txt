@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+        -sort_by group
+Design : CSC
+Version: P-2019.03-SP1-1
+Date   : Thu Jun  5 08:48:22 2025
+****************************************
+
+Operating Conditions: ff0p88v125c   Library: N16ADFP_StdCellff0p88v125c
+Wire Load Model Mode: segmented
+
+  Startpoint: DPi[24] (input port clocked by clk)
+  Endpoint: DPo[24] (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CSC                ZeroWireload          N16ADFP_StdCellss0p72vm40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.2000     0.2000
+  input external delay                   0.0000     0.2000 f
+  DPi[24] (in)                           0.0066     0.2066 f
+  U367/Z (CKBD1BWP20P90)                 0.0144     0.2210 f
+  DPo[24] (out)                          0.0000     0.2210 f
+  data arrival time                                 0.2210
+
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.2000     0.2000
+  clock uncertainty                      0.0200     0.2200
+  output external delay                  0.0000     0.2200
+  data required time                                0.2200
+  -----------------------------------------------------------
+  data required time                                0.2200
+  data arrival time                                -0.2210
+  -----------------------------------------------------------
+  slack (MET)                                       0.0010
+
+
+1

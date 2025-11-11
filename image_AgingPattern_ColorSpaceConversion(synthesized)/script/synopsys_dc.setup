@@ -1,0 +1,20 @@
+#Set Design Environments
+
+set company "CIC"
+set designer "Student"
+
+set CoreSearchPath /usr/cad/CBDK/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/
+
+set search_path    "$CoreSearchPath"
+
+set target_library   "N16ADFP_StdCellss0p72vm40c.db   N16ADFP_StdCellff0p88v125c.db"
+
+set link_library      "* $target_library dw_foundation.sldb"
+set symbol_library    "generic_sdb"
+set synthetic_library "dw_foundation.sldb"
+
+set verilogout_no_tri true
+set hdlin_enable_presto_for_vhdl "TRUE"
+set sh_enable_line_editing true
+history keep 100
+alias h history

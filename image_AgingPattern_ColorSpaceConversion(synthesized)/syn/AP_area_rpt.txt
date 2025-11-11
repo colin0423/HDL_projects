@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : AP
+Version: P-2019.03-SP1-1
+Date   : Wed Jun  4 22:46:20 2025
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c (File: /usr/cad/CBDK/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/N16ADFP_StdCellss0p72vm40c.db)
+
+Number of ports:                         4165
+Number of nets:                          7982
+Number of cells:                         5398
+Number of combinational cells:           5244
+Number of sequential cells:                26
+Number of macros/black boxes:               0
+Number of buf/inv:                        928
+Number of references:                     280
+
+Combinational area:               1674.224672
+Buf/Inv area:                      210.677765
+Noncombinational area:              24.261120
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  1698.485792
+Total area:                 undefined
+1

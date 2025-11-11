@@ -1,0 +1,82 @@
+Loading db file '/usr/cad/CBDK/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/N16ADFP_StdCellss0p72vm40c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : CSC
+Version: P-2019.03-SP1-1
+Date   : Thu Jun  5 08:48:27 2025
+****************************************
+
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c (File: /usr/cad/CBDK/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/N16ADFP_StdCellss0p72vm40c.db)
+
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+CSC                    ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_1         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_2         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_4         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_5         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_6         ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J3_0   ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_sub_J16_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_sub_J19_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J15_1  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_add_J18_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_J16_1     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J21_1  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J23_0  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J30_0  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_J33_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_J31_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_add_J32_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_sub_J31_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J30_1  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_J39_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J47_0  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_J51_0  ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_inc_J52_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW01_add_J50_0     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+CSC_DW_mult_uns_17     ZeroWireload      N16ADFP_StdCellss0p72vm40c
+
+
+Global Operating Voltage = 0.72 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 635.5154 uW   (58%)
+  Net Switching Power  = 454.9880 uW   (42%)
+                         ---------
+Total Dynamic Power    =   1.0905 mW  (100%)
+
+Cell Leakage Power     =   1.0445 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       4.7401e-03        9.6542e-05            1.5016        4.8381e-03  (   0.44%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.6308            0.4549        1.0430e+03            1.0867  (  99.56%)
+--------------------------------------------------------------------------------------------------
+Total              0.6355 mW         0.4550 mW     1.0445e+03 nW         1.0915 mW
+1
